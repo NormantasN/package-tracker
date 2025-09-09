@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://localhost:7093/api';
+const API_BASE_URL = 'http://localhost:5136/api';
 
 export const api = {
 	async getPackages(trackingNumber = '', status = '') {
